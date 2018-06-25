@@ -15,29 +15,19 @@ class HomeViewController: UITabBarController {
         let todoController = ToDoViewController()
         let todoNavigationController = UINavigationController(rootViewController: todoController)
         todoNavigationController.title = "Todo"
+        todoNavigationController.tabBarItem.image = UIImage(named: "todo")
         
         let reminderViewController = ReminderViewController()
         let reminderNavigationController = UINavigationController(rootViewController: reminderViewController)
-        reminderViewController.title = "Reminder"
-        viewControllers = [todoNavigationController, reminderViewController]
+        reminderNavigationController.title = "Reminder"
+        reminderNavigationController.tabBarItem.image = UIImage(named: "reminder")
         
-        // Do any additional setup after loading the view.
+        let notesViewController = NotesViewController()
+        let notesNavigationController = UINavigationController(rootViewController: notesViewController)
+        notesNavigationController.title = "Notes"
+        notesNavigationController.tabBarItem.image = UIImage(named: "note")
+        
+        viewControllers = [todoNavigationController, reminderNavigationController, notesNavigationController]
+     
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

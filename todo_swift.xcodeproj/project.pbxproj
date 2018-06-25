@@ -11,7 +11,6 @@
 		61F2677620DCB6FD00CF2E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2677520DCB6FD00CF2E74 /* ViewController.swift */; };
 		61F2677920DCB6FD00CF2E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677720DCB6FD00CF2E74 /* Main.storyboard */; };
 		61F2677C20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61F2677A20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld */; };
-		61F2677E20DCB6FE00CF2E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677D20DCB6FE00CF2E74 /* Assets.xcassets */; };
 		61F2678120DCB6FE00CF2E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677F20DCB6FE00CF2E74 /* LaunchScreen.storyboard */; };
 		61F2678C20DCB6FE00CF2E74 /* todo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2678B20DCB6FE00CF2E74 /* todo_swiftTests.swift */; };
 		61F2679820DCB96100CF2E74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2679620DCB96100CF2E74 /* HomeViewController.swift */; };
@@ -20,6 +19,9 @@
 		61F2679D20E0E2AF00CF2E74 /* ToDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */; };
 		61F267A020E0E56500CF2E74 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */; };
 		61F267A120E0E56500CF2E74 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */; };
+		61F267A420E0F92C00CF2E74 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F267A220E0F92C00CF2E74 /* NotesViewController.swift */; };
+		61F267A520E0F92C00CF2E74 /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F267A320E0F92C00CF2E74 /* NotesViewController.xib */; };
+		61F267A620E0FF5A00CF2E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677D20DCB6FE00CF2E74 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoViewController.xib; sourceTree = "<group>"; };
 		61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		61F267A220E0F92C00CF2E74 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		61F267A320E0F92C00CF2E74 /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 				61F2677220DCB6FD00CF2E74 /* todo_swift */,
 				61F2678A20DCB6FE00CF2E74 /* todo_swiftTests */,
 				61F2677120DCB6FD00CF2E74 /* Products */,
+				61F2679A20E0E2AF00CF2E74 /* ToDoViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,10 +105,11 @@
 				61F2677A20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld */,
 				61F2679620DCB96100CF2E74 /* HomeViewController.swift */,
 				61F2679720DCB96100CF2E74 /* HomeViewController.xib */,
-				61F2679A20E0E2AF00CF2E74 /* ToDoViewController.swift */,
 				61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */,
 				61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */,
 				61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */,
+				61F267A220E0F92C00CF2E74 /* NotesViewController.swift */,
+				61F267A320E0F92C00CF2E74 /* NotesViewController.xib */,
 			);
 			path = todo_swift;
 			sourceTree = "<group>";
@@ -199,9 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				61F2678120DCB6FE00CF2E74 /* LaunchScreen.storyboard in Resources */,
-				61F2677E20DCB6FE00CF2E74 /* Assets.xcassets in Resources */,
 				61F2677920DCB6FD00CF2E74 /* Main.storyboard in Resources */,
+				61F267A520E0F92C00CF2E74 /* NotesViewController.xib in Resources */,
 				61F2679920DCB96100CF2E74 /* HomeViewController.xib in Resources */,
+				61F267A620E0FF5A00CF2E74 /* Assets.xcassets in Resources */,
 				61F267A120E0E56500CF2E74 /* ReminderViewController.xib in Resources */,
 				61F2679D20E0E2AF00CF2E74 /* ToDoViewController.xib in Resources */,
 			);
@@ -224,6 +231,7 @@
 				61F2679C20E0E2AF00CF2E74 /* ToDoViewController.swift in Sources */,
 				61F2677C20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld in Sources */,
 				61F267A020E0E56500CF2E74 /* ReminderViewController.swift in Sources */,
+				61F267A420E0F92C00CF2E74 /* NotesViewController.swift in Sources */,
 				61F2677620DCB6FD00CF2E74 /* ViewController.swift in Sources */,
 				61F2677420DCB6FD00CF2E74 /* AppDelegate.swift in Sources */,
 				61F2679820DCB96100CF2E74 /* HomeViewController.swift in Sources */,
