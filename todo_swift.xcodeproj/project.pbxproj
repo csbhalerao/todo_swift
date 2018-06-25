@@ -14,6 +14,12 @@
 		61F2677E20DCB6FE00CF2E74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677D20DCB6FE00CF2E74 /* Assets.xcassets */; };
 		61F2678120DCB6FE00CF2E74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677F20DCB6FE00CF2E74 /* LaunchScreen.storyboard */; };
 		61F2678C20DCB6FE00CF2E74 /* todo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2678B20DCB6FE00CF2E74 /* todo_swiftTests.swift */; };
+		61F2679820DCB96100CF2E74 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2679620DCB96100CF2E74 /* HomeViewController.swift */; };
+		61F2679920DCB96100CF2E74 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F2679720DCB96100CF2E74 /* HomeViewController.xib */; };
+		61F2679C20E0E2AF00CF2E74 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2679A20E0E2AF00CF2E74 /* ToDoViewController.swift */; };
+		61F2679D20E0E2AF00CF2E74 /* ToDoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */; };
+		61F267A020E0E56500CF2E74 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */; };
+		61F267A120E0E56500CF2E74 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,12 @@
 		61F2678720DCB6FE00CF2E74 /* todo_swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = todo_swiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F2678B20DCB6FE00CF2E74 /* todo_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_swiftTests.swift; sourceTree = "<group>"; };
 		61F2678D20DCB6FE00CF2E74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61F2679620DCB96100CF2E74 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		61F2679720DCB96100CF2E74 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		61F2679A20E0E2AF00CF2E74 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoViewController.xib; sourceTree = "<group>"; };
+		61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,12 @@
 				61F2677F20DCB6FE00CF2E74 /* LaunchScreen.storyboard */,
 				61F2678220DCB6FE00CF2E74 /* Info.plist */,
 				61F2677A20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld */,
+				61F2679620DCB96100CF2E74 /* HomeViewController.swift */,
+				61F2679720DCB96100CF2E74 /* HomeViewController.xib */,
+				61F2679A20E0E2AF00CF2E74 /* ToDoViewController.swift */,
+				61F2679B20E0E2AF00CF2E74 /* ToDoViewController.xib */,
+				61F2679E20E0E56500CF2E74 /* ReminderViewController.swift */,
+				61F2679F20E0E56500CF2E74 /* ReminderViewController.xib */,
 			);
 			path = todo_swift;
 			sourceTree = "<group>";
@@ -183,6 +201,9 @@
 				61F2678120DCB6FE00CF2E74 /* LaunchScreen.storyboard in Resources */,
 				61F2677E20DCB6FE00CF2E74 /* Assets.xcassets in Resources */,
 				61F2677920DCB6FD00CF2E74 /* Main.storyboard in Resources */,
+				61F2679920DCB96100CF2E74 /* HomeViewController.xib in Resources */,
+				61F267A120E0E56500CF2E74 /* ReminderViewController.xib in Resources */,
+				61F2679D20E0E2AF00CF2E74 /* ToDoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +221,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F2679C20E0E2AF00CF2E74 /* ToDoViewController.swift in Sources */,
 				61F2677C20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld in Sources */,
+				61F267A020E0E56500CF2E74 /* ReminderViewController.swift in Sources */,
 				61F2677620DCB6FD00CF2E74 /* ViewController.swift in Sources */,
 				61F2677420DCB6FD00CF2E74 /* AppDelegate.swift in Sources */,
+				61F2679820DCB96100CF2E74 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
