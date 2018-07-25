@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		61C99A232108829900E14B5C /* bluetest.json in Resources */ = {isa = PBXBuildFile; fileRef = 61C99A222108829900E14B5C /* bluetest.json */; };
 		61F2677420DCB6FD00CF2E74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2677320DCB6FD00CF2E74 /* AppDelegate.swift */; };
 		61F2677620DCB6FD00CF2E74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F2677520DCB6FD00CF2E74 /* ViewController.swift */; };
 		61F2677920DCB6FD00CF2E74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61F2677720DCB6FD00CF2E74 /* Main.storyboard */; };
@@ -42,7 +41,6 @@
 		1A42AD2C440EC776D9738745 /* Pods-todo_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-todo_swift/Pods-todo_swift.release.xcconfig"; sourceTree = "<group>"; };
 		36F7231E1A92FE872174ACE8 /* Pods-todo_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-todo_swift/Pods-todo_swift.debug.xcconfig"; sourceTree = "<group>"; };
 		3D68705B302D57D94A7C1CF2 /* Pods_todo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		61C99A222108829900E14B5C /* bluetest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bluetest.json; sourceTree = "<group>"; };
 		61F2677020DCB6FD00CF2E74 /* todo_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F2677320DCB6FD00CF2E74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F2677520DCB6FD00CF2E74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				61F2677D20DCB6FE00CF2E74 /* Assets.xcassets */,
 				61F2677F20DCB6FE00CF2E74 /* LaunchScreen.storyboard */,
 				61F2678220DCB6FE00CF2E74 /* Info.plist */,
-				61C99A222108829900E14B5C /* bluetest.json */,
 				61F2677A20DCB6FD00CF2E74 /* todo_swift.xcdatamodeld */,
 				61F2679620DCB96100CF2E74 /* HomeViewController.swift */,
 				61F2679720DCB96100CF2E74 /* HomeViewController.xib */,
@@ -249,7 +246,6 @@
 				61F267AA20E10B1100CF2E74 /* GoogleService-Info.plist in Resources */,
 				61F2677920DCB6FD00CF2E74 /* Main.storyboard in Resources */,
 				61F267A520E0F92C00CF2E74 /* NotesViewController.xib in Resources */,
-				61C99A232108829900E14B5C /* bluetest.json in Resources */,
 				61F2679920DCB96100CF2E74 /* HomeViewController.xib in Resources */,
 				61F267A620E0FF5A00CF2E74 /* Assets.xcassets in Resources */,
 				61F267A120E0E56500CF2E74 /* ReminderViewController.xib in Resources */,
