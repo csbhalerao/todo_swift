@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import Lottie
 
 class ReminderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let animationView = LOTAnimationView(name: "bluetest")
         
-    }
+            animationView.frame = CGRect(x: 0, y: 0, width: 320, height: 534)
+            animationView.center = self.view.center
+            animationView.contentMode = .scaleAspectFill
 
+            view.addSubview(animationView)
+
+            animationView.play()
+        
+
+    }
+    
 }
